@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KEKSUS - Креативная студия</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="#" class="logo">KEKSUS</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#contact" class="btn btn-outline">Связаться с нами</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container hero-content">
+                <h1>Инновации<br>будущего поколения</h1>
+                <p>Студия полного цикла, дизайн-бюро и центр разработки.</p>
+                <a href="#contact" class="btn btn-primary">Заказать проект &rarr;</a>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Услуги</h2>
+                <div class="services-nav">
+                    <span class="active">Веб-разработка</span>
+                    <span>Дизайн</span>
+                    <span>Маркетинг</span>
+                    <span>Аналитика</span>
+                </div>
+                
+                <div class="services-grid">
+                    <article class="service-card">
+                        <div class="icon">💻</div>
+                        <h3>Создание сайтов</h3>
+                    </article>
+                    <article class="service-card">
+                        <div class="icon">🎨</div>
+                        <h3>Брендинг и UX/UI</h3>
+                    </article>
+                    <article class="service-card">
+                        <div class="icon">📱</div>
+                        <h3>Мобильные приложения</h3>
+                    </article>
+                    <article class="service-card">
+                        <div class="icon">🚀</div>
+                        <h3>SEO и Продвижение</h3>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-top">
+                    <div class="about-text">
+                        <h2>О нас</h2>
+                        <p>KEKSUS — это креативная студия разработки и дизайна. Мы объединяем талантливых инженеров, дизайнеров и дилетантов для создания продуктов, которые меняют буквально ничего. Мы работаем с IT и стартапами.</p>
+                    </div>
+                    <div class="about-visual">
+                        <div class="blob"></div>
+                    </div>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-num">85</div>
+                        <div class="stat-label">Проектов</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num">27</div>
+                        <div class="stat-label">Лет опыта</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num">2</div>
+                        <div class="stat-label">Специалиста</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-num">0</div>
+                        <div class="stat-label">Наград</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Наши проекты</h2>
+                <div class="projects-list">
+                    <article class="project-card">
+                        <div class="project-info">
+                            <h3>EcoTrack</h3>
+                            <p>Платформа для мониторинга с ИИ-аналитикой.</p>
+                            <a href="#" class="btn btn-secondary">Подробнее</a>
+                        </div>
+                        <div class="project-img bg-green">
+                            <span>EcoTrack App</span>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-info">
+                            <h3>FinFlow</h3>
+                            <p>Банк для реальных мужчин. Простая система налогообложения и все.</p>
+                            <a href="#" class="btn btn-secondary">Подробнее</a>
+                        </div>
+                        <div class="project-img bg-dark">
+                            <span>FinFlow System</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container contact-inner">
+                <h2>Начнем<br>создавать<br>новое вместе</h2>
+                <p>Оставьте заявку, и мы свяжемся с вами в течение года!</p>
+                
+                <form class="contact-form" action="#" method="POST">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="email" placeholder="Ваш Email" required>
+                    <select required>
+                        <option value="" disabled selected>Выберите услугу</option>
+                        <option value="web">Веб-разработка</option>
+                        <option value="design">Дизайн</option>
+                        <option value="marketing">Маркетинг</option>
+                    </select>
+                    
+                    <label class="checkbox-label">
+                        <input type="checkbox" required>
+                        <span>Я согласен с <a href="#">политикой конфиденциальности</a></span>
+                    </label>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">KEKSUS</a>
+                </div>
+                <div class="footer-links">
+                    <h3>Услуги</h3>
+                    <ul>
+                        <li><a href="#">Веб-разработка</a></li>
+                        <li><a href="#">Дизайн</a></li>
+                        <li><a href="#">Маркетинг</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Проекты</h3>
+                    <ul>
+                        <li><a href="#">EcoTrack</a></li>
+                        <li><a href="#">FinFlow</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contacts">
+                    <h3>Контакты</h3>
+                    <p>+7 999 123 45 67</p>
+                    <p>hello@keksus-studio.ru</p>
+                    <p>г.Москва, ул.Пушкина, 1</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 ООО «КЕКСУС». Все права возможно защищены.</p>
+                <div class="legal">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Условия использования</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
